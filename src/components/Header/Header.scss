@@ -1,0 +1,28 @@
+.header {
+    background: #282c34;
+    text-align: center;
+    color: white;
+    position:sticky;
+    top: 0;
+    z-index: 10;
+    width: 100vw;
+
+    .container
+    {
+        display: flex;
+        justify-content: space-between;
+        .logo-container
+        {
+            padding: 1rem;
+            img
+            {
+                width: calc(16px * 10);
+                height: auto;
+            }
+        }
+        nav
+        {
+            display: flex;
+        }
+    }
+}
