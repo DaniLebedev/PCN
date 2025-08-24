@@ -1,46 +1,27 @@
 @import url("../../styles/fonts.scss");
-
+$border-scale: 2px;
+$border-scale-hover: 3px;
+$rems: 1rem;
 .btn-header
 {
     background: transparent;
-    border: 5px solid #fff;
+    border: $border-scale solid #fff;
+    border-radius: 0;
     margin: auto 0;
     height: 70%;
-    clip-path: polygon(
-    10% 0,           // верхний левый угол (прямой)
-    100% 0,        // верхний правый угол
-    90% 100%, // нижний правый со срезом под 30°
-    0 100%         // нижний левый угол (прямой)
-    );
+    transition: ease 0.25s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     h2
     {
+        font-size: $rems;
+
         font-family: "Orbitron", sans-serif;
-        font-size: 1rem;
     }
     &:hover
     {
-        border: 5px solid #fff;
-    }
-}
-.btn-header-end
-{
-    background: #000;
-    border: 5px solid #fff;
-    margin: auto 0;
-    height: 70%;
-    clip-path: polygon(
-    10% 0,           // верхний левый угол (прямой)
-    100% 0,        // верхний правый угол
-    100% 100%, // нижний правый со срезом под 30°
-    0 100%         // нижний левый угол (прямой)
-    );
-    h2
-    {
-        font-family: "Orbitron", sans-serif;
-        font-size: 1rem;
-    }
-    &:hover
-    {
-        border: 2px solid #fff;
+        border: red solid 2px;
+        border-radius: 10px;
     }
 }

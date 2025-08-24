@@ -3,7 +3,7 @@
   <g>
     <text x="0" y="46.637" style="fill: rgb(51, 51, 51); font-family: tamo; font-size: 70px; letter-spacing: 5.3px; white-space: pre; stroke-width: 1;"><tspan style="fill:#e31e24;font-size:70px;word-spacing:0;letter-spacing:5.3px;stroke-width:1">PC</tspan><tspan style="fill:#5b5b5b;font-size:70px;word-spacing:0;letter-spacing:5.3px;stroke-width:1">N</tspan></text>
   </g>
-  <g style="transform-origin: 4px 27.0474px;" transform="matrix(1, 0, 0, 1, -5, 0)">
+  <g style="transform-origin: 4px 27.0474px;" transform="matrix(1.032583, 0, 0, 1.020301, -10.571122, -0.381435)">
     <path bx:shape="rect 115.649 11.377 59.334 32.258 1.203 16.322 16.322 0 1@10861558" d="M 116.852 11.377 H 158.661 A 16.322 16.129 0 0 1 174.983 27.506 V 27.506 A 16.322 16.129 0 0 1 158.661 43.635 H 115.649 V 12.58 A 1.203 1.203 0 0 1 116.852 11.377 Z" style="stroke-width: 0; stroke-linecap: round; stroke-linejoin: round; fill: rgb(91, 91, 91);"/>
     <text x="117.274" y="138.675" style="fill: rgb(255, 255, 255); font-family: tamo; font-size: 46px; letter-spacing: 1.1px; stroke: rgb(70, 69, 69); stroke-width: 0.988092px; white-space: pre;" transform="matrix(0.96756, 0, 0, 1.05654, 4.90868, -106.283142)">1</text>
     <text x="117.274" y="138.675" style="fill: rgb(255, 255, 255); font-family: tamo; font-size: 46px; letter-spacing: 1.1px; stroke: rgb(70, 69, 69); stroke-width: 0.988092px; white-space: pre;" transform="matrix(0.96756, 0, 0, 1.05654, 17.702145, -106.457016)">0</text>

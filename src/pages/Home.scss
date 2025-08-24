@@ -1,4 +1,23 @@
-.home {
+.home-page {
     width: 100dvw;
     min-height: 100dvh;
+}
+.hero-block
+{
+    width: 100dvw;
+    position: relative;
+    .img-hero-block
+    {
+        width: 100%;
+    }
+    .dark-hero-block
+    {
+        width: 100%;
+        height:initial;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #000;
+        opacity: 0.5;
+    }
 }
