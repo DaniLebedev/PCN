@@ -1,23 +1,39 @@
-.home-page {
-    width: 100dvw;
-    min-height: 100dvh;
-}
-.hero-block
-{
-    width: 100dvw;
+.hero-block {
+    width: 100%;
     position: relative;
-    .img-hero-block
-    {
+    height: fit-content;
+    .img-hero-block {
+        
         width: 100%;
+        img {
+            width: 100%;     
+            display: block;  
+        }
     }
-    .dark-hero-block
-    {
-        width: 100%;
-        height:initial;
+
+    .dark-hero-block {
         position: absolute;
         top: 0;
         left: 0;
+        width: 100%;
+        height: 100%;   // вот ключевая правка
         background: #000;
         opacity: 0.5;
+    }
+    
+    .hero-container-text {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        color: white;
+        text-align: left;
+        .main-hero-block {
+            font-size: 4rem;
+        }
+        .secondary-hero-block {
+            font-size: 1.5rem;
+        }
     }
 }
