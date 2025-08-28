@@ -1,31 +1,26 @@
-.header {
-    background: linear-gradient(135deg, #1a1a1a 0%, #2c2c2c 100%);
-    border-bottom: 3px solid red;
-    box-shadow:0 2px 20px 0px red;
-    text-align: center;
-    color: white;
-    position:fixed;
-    top: 0;
-    z-index: 10;
-    width: 100vw;
-    height: 80px;
-    .container
-    {
-        display: flex;
-        justify-content: space-between;
-        .logo-container
-        {
-            padding: 1rem;
-            img
-            {
-                width: calc(16px * 10);
-                height: auto;
-            }
-        }
-        nav
-        {
-            display: flex;
-            gap: 5px;
-        }
+.service-card {
+    gap: 20px;
+    width: fit-content;
+    border-radius: 20px;
+    border: 3px solid red;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow:0 3px 10px 0px red;
+
+    img {
+        height: auto;
+        border-radius: 8px;
+        overflow: hidden;
+        width: 100%;
     }
+    p {
+        font-size: 2rem;
+        cursor: pointer;
+        
+    }
+}
+.services-section
+{
+    margin-top: 50px;
 }

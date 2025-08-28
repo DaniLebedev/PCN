@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import React from "react";
 import "./Home.scss";
 import HeroImg from "../assets/images/background.jpg";
+import ServiceCard from "../components/ServiceCard/ServiceCard";
 const Home: React.FC = () => {
     const { t } = useTranslation("home");
     return (
@@ -24,8 +25,13 @@ const Home: React.FC = () => {
                     </div>
                 </div>
             </section>
-            <section>
-                
+            <section className="services-section">
+                <div className="container services-card">
+                    <ServiceCard text="армамзамзам армамзамзам армамзамзам армамзамзам" imgsrc={HeroImg}/>
+                    <ServiceCard text="армамзамзам армамзамзам армамзамзам армамзамзам" imgsrc={HeroImg}/>
+                    <ServiceCard text="армамзамзам армамзамзам армамзамзам армамзамзам" imgsrc={HeroImg}/>
+                    <ServiceCard text="армамзамзам армамзамзам армамзамзам армамзамзам" imgsrc={HeroImg}/>
+                </div>
             </section>
         </main>
     );
