@@ -1,8 +1,9 @@
+import { useTranslation } from "react-i18next";
 import React from "react";
 import "./Home.scss";
 import HeroImg from "../assets/images/background.jpg";
-import HeroMan from "../assets/images/hero-men.gif";
 const Home: React.FC = () => {
+    const { t } = useTranslation("home");
     return (
         <main className="home-page">
             <section>
@@ -14,14 +15,17 @@ const Home: React.FC = () => {
                     <div className="hero-container-text">
                         <div className="container">
                             <h1 className="main-hero-block">
-                            PCN-101
+                            {t("hero-block.main")}
                         </h1>
                         <h1 className="secondary-hero-block">
-                            PCN-101
+                            {t("hero-block.secondary")}
                         </h1>
                         </div>
                     </div>
                 </div>
+            </section>
+            <section>
+                
             </section>
         </main>
     );
