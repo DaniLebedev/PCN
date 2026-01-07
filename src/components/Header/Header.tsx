@@ -6,6 +6,7 @@ import "./Header.scss";
 import Logo from "../../assets/icons/pcn-101-2-logo.svg";
 import Button from "../Button/Button";
 import { SwitchLang } from "../Button/Button"
+import "../Button/Button.scss";
 const Header: React.FC = () => {
     const { t } = useTranslation("header");
 

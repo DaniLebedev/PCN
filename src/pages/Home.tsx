@@ -3,6 +3,7 @@ import React from "react";
 import "./Home.scss";
 import HeroImg from "../assets/images/background.jpg";
 import ServiceCard from "../components/ServiceCard/ServiceCard";
+import "../styles/fonts.scss";
 const Home: React.FC = () => {
     const { t } = useTranslation("home");
     return (
@@ -12,6 +13,7 @@ const Home: React.FC = () => {
                     <div className="img-hero-block">
                         <img src={HeroImg} alt="" />
                     </div>
+                    <div className="page-gradient"></div>
                     <div className="dark-hero-block"></div>
                     <div className="hero-container-text">
                         <div className="container">

@@ -2,10 +2,9 @@
 $border-scale: 2px;
 $border-scale-hover: 3px;
 $rems: 1rem;
-.btn-header
-{
+
+.btn-header {
     background: transparent;
-    border: $border-scale solid #fff;
     border-radius: 0;
     margin: auto 0;
     height: 70%;
@@ -14,19 +13,27 @@ $rems: 1rem;
     align-items: center;
     justify-content: center;
     padding: 1rem;
-    h2
-    {
+    background-image: linear-gradient(curre);
+
+    h2 {
         font-size: $rems;
 
         font-family: "Orbitron", sans-serif;
     }
-    &:hover
-    {
-        border: red solid 2px;
-        border-radius: 10px;
-        h2
-        {
-            color: red;
+
+    &:hover {
+
+        h2::before {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 100%;
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: #000;
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
         }
     }
 }

@@ -1,16 +1,18 @@
 .hero-block {
     width: 100%;
-    height: 100vw;
+    height: 100vh;
     position: relative;
     height: fit-content;
     overflow: hidden;
+
     .img-hero-block {
-        
+
         width: 100%;
         height: 100%;
+
         img {
-            width: 100%;     
-            display: block;  
+            width: 100%;
+            display: block;
             overflow: hidden;
         }
     }
@@ -20,11 +22,11 @@
         top: 0;
         left: 0;
         width: 100%;
-        height: 100%;   // вот ключевая правка
+        height: 100%; // вот ключевая правка
         background: #000;
         opacity: 0.5;
     }
-    
+
     .hero-container-text {
         width: 50%;
         position: absolute;
@@ -32,20 +34,50 @@
         left: 0%;
         color: white;
         text-align: left;
+
         .main-hero-block {
             font-size: 4rem;
         }
+
         .secondary-hero-block {
             font-size: 1.7rem;
         }
     }
 }
-.services-card
-{
+
+.services-card {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     grid-row-gap: 1vw;
     grid-column-gap: 1vw;
 
+}
+
+@keyframes gradientWave {
+
+    0%,
+    100% {
+        height: 60px;
+        opacity: 0.7;
+    }
+
+    50% {
+        height: 80px;
+        opacity: 1;
+    }
+}
+
+
+.page-gradient {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(to bottom,
+            transparent,
+            rgba(255, 255, 255, 0.1) 20%,
+            white 100%);
+    animation: gradientWave 3s ease-in-out infinite;
 }
